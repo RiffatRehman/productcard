@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+    
+ /*continer styling*/
+.continer{
+    height: 650px;
+    width: 950px;
+    background-color: rgb(172, 15, 15);
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   position: fixed;
+   border-radius: 10px;
+}
+ /*box one styling*/
+
+.box1{
+    height: 500px;
+    width: 750px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+
+}
+ /*product image styling*/
+.box2{
+    height: 330px;
+    width: 330px
+    background-color: rgb(219, 14, 14);
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    border-radius: 10px;
+    
+}
+.footer{
+    height: 90px;
+    width: 330px;
+    background-color: white;
+    position: relative;
+    margin-top: 270px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+    
+    }
+img{
+    width: 380px;
+    height: 250px;
+    position: absolute;
+    right: 1.5%;
+    bottom: 30px;
+    
+ }
+ 
+ .imgheart{
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    font-size: 1.5em;
+   }
+ 
+
+ .imgshare{
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 1.5em
+ }
+
+ /*product detail styling*/
+ .appleimg1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    border: 1px solid cornsilk;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+ }
+ .appleimg1:hover{
+    transform: scale(1.2);
+    background-color: rgb(245, 30, 30)
+
+ }
+ .appleimg2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    border: 1px solid cornsilk;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+ }
+ .appleimg2:hover{
+    transform: scale(1.2);
+    background-color: rgb(245, 30, 30)
+
+ }
+ .appleimg3{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    border: 1px solid cornsilk;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+ }
+ .appleimg3:hover{
+    transform: scale(1.2);
+    background-color: rgb(245, 30, 30)
+
+ }
+ .appleimg4{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    border: 1px solid cornsilk;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+ }
+ .appleimg4:hover{
+    transform: scale(1.2);
+    background-color: rgb(245, 30, 30)
+
+ }
+ .Description{
+ position: relative;
+ left: 380px;
+ top: 50px;
+  
+ }
+
+ .Description h4{
+    text-transform: uppercase;
+    color: silver;
+    
+ }
+ .price{
+    font-size: 80px;
+    color: brown;
+    
+}
+.curency {
+    color: black;
+    font-size: 25px;
+}
+
+.bnf{
+    position: relative;
+    bottom: -45px;
+   
+}
+
+.bnf1{
+    position: relative;
+    bottom: -45px;
+    left: 20px;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    top: 50px;
+    position: relative;
+    text-transform: uppercase;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: rgb(245, 30, 30);
+  
+
+
+ }
+ 
+ 
+ 
